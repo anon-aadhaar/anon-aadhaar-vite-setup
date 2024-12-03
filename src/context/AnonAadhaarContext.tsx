@@ -11,7 +11,7 @@ export function AnonAadhaarContext({ children }: AnonAadhaarContextProps) {
   return (
     <AnonAadhaarProvider
       _useTestAadhaar={useTestAadhaar}
-      _appName="Anon Aadhaar"
+      _appName="Anon Aadhaar Template"
     >
       {children}
     </AnonAadhaarProvider>
